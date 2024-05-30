@@ -1,4 +1,4 @@
-# Image Captioning App 📷
+# Image Captioning Generator 📷
 
 ---
 
