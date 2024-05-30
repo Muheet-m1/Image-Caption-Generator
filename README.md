@@ -1,53 +1,60 @@
-# Image-Caption-Generator
-Welcome to the Image Caption Generator repository! This project utilizes deep learning techniques to generate descriptive captions for images. By leveraging state-of-the-art neural network models, the system can interpret the contents of an image and provide a coherent and relevant textual description.
-Features
-Advanced Neural Networks: Utilizes Convolutional Neural Networks (CNNs) for image feature extraction and Recurrent Neural Networks (RNNs) for sequence generation.
-Pre-trained Models: Comes with pre-trained models like InceptionV3 for image encoding and LSTM for caption generation.
-Custom Training: Allows for custom training on your own datasets to fine-tune and improve caption accuracy.
-Flexible Input: Supports a variety of image formats and sizes.
-Extensible Codebase: Easily extendable for experimenting with different network architectures and training techniques.
-API Integration: Simple API setup for integrating the caption generator into other applications.
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/muheet-m1/image-caption-generator.git
-Navigate to the project directory:
-bash
-Copy code
-cd image-caption-generator
-Install the required dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Generate Captions
-To generate captions for your images, place the images in the input_images folder and run:
+# Image Captioning App 📷
 
-bash
-Copy code
-python generate_captions.py
-The generated captions will be saved in the output_captions folder.
+---
 
-Training
-To train the model on a custom dataset, ensure your dataset is in the appropriate format and run:
+`Build-A-Bit` `Concetto 19`
 
-bash
-Copy code
-python train_model.py --data_dir /path/to/your/dataset
-Examples
-Input Image
+**Team Name:** The Unknowns
 
-Generated Caption
-"A group of people riding horses on a beach."
+---
 
-Contributing
-Contributions are welcome! Please read the contributing guidelines before submitting a pull request.
+## Problem Overview
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+Blindness presents significant challenges for those affected, making everyday tasks difficult. However, technology offers solutions to alleviate some of these challenges. This project focuses on developing a photo-to-speech application for the blind, called **Intelligent Eye**. The goal is to provide a tool that helps visually impaired individuals navigate independently without external assistance. By combining image and text processing, we aim to create a deep learning application that makes a meaningful impact on society, enabling visually impaired individuals to achieve greater independence.
 
-Acknowledgments
-TensorFlow
-Keras
-fliker8k Dataset
+---
+
+## Requirements
+
+### Python
+- **Flask**
+- **Keras**
+- **NumPy**
+
+### Flutter
+- **image_picker**
+- **dio**
+- **http**
+- **flutter_tts**
+
+---
+
+## Workflow
+
+Here's an overview of how the Intelligent Eye app works:
+
+<img src="https://github.com/HeliosX7/caption-generator-app/blob/master/images/workflow.JPG" height="600">
+
+1. **Image Capture**: The user captures an image using the app.
+2. **Image Processing**: The captured image is sent to a server where a deep learning model processes it.
+3. **Caption Generation**: The model generates a descriptive caption for the image.
+4. **Text-to-Speech**: The generated caption is converted to speech.
+5. **Audio Output**: The app plays the audio description, helping the user understand the content of the image.
+
+---
+
+## Demo
+
+Check out our demo to see Intelligent Eye in action:
+
+<img src="https://github.com/HeliosX7/caption-generator-app/blob/master/images/demo.gif" width="280" height="550">
+
+---
+
+## References
+
+For more details, visit the original image caption generator project: [Muheet's Image Caption Generator](https://github.com/muheet-m1/image-caption-generator.git)
+
+---
+
+Thank you for exploring the Intelligent Eye app! We hope it serves as a valuable tool for the visually impaired community. Feel free to contribute and make a difference!
