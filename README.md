@@ -17,15 +17,10 @@ Blindness presents significant challenges for those affected, making everyday ta
 ## Requirements
 
 ### Python
-- **Flask**
+- **tensorflow**
 - **Keras**
 - **NumPy**
-
-### Flutter
-- **image_picker**
-- **dio**
-- **http**
-- **flutter_tts**
+- **Flask**
 
 ---
 
