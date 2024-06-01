@@ -21,6 +21,12 @@ Blindness presents significant challenges for those affected, making everyday ta
 - **Keras**
 - **NumPy**
 - **Flask**
+- **pandas**
+
+## Frontend
+- **HTML/CSS**
+- **Javascript**
+  
 
 ---
 
