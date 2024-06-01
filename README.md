@@ -34,7 +34,7 @@ Blindness presents significant challenges for those affected, making everyday ta
 
 Here's an overview of how the Intelligent Eye website works:
 
-<img src="https://github.com/HeliosX7/caption-generator-app/blob/master/images/workflow.JPG" height="600">
+<img src="C:\Users\khale\OneDrive\Pictures\Screenshots\Screenshot 2024-06-01 184415.png" height="600">
 
 1. **Image Capture**: The user captures an image using the app.
 2. **Image Processing**: The captured image is sent to a server where a deep learning model processes it.
