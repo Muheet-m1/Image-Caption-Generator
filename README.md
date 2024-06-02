@@ -10,7 +10,15 @@
 
 ## Problem Overview
 
-Blindness presents significant challenges for those affected, making everyday tasks difficult. However, technology offers solutions to alleviate some of these challenges. This project focuses on developing a photo-to-speech application for the blind, called **Intelligent Eye**. The goal is to provide a tool that helps visually impaired individuals navigate independently without external assistance. By combining image and text processing, we aim to create a deep learning application that makes a meaningful impact on society, enabling visually impaired individuals to achieve greater independence.
+- **Accessibility for visually impaired:** Provides descriptive captions for images, improving accessibility to digital content.
+
+- **Content indexing and retrieval:** Enables text-based searches for images, enhancing content management systems.
+
+- **Assistive technology:** Integrates with communication devices, aiding individuals with speech impairments.
+
+- **Enhanced user experience:** Provides context and information, improving engagement on websites and social media.
+
+- **Automated content generation:** Generates metadata and descriptions, saving time for content creators.
 
 ---
 
