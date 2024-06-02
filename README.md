@@ -2,7 +2,7 @@
 
 ---
 
-`Build-A-Bit` `Concetto 19` "muheeth"
+`Build-A-Bit` `Concetto 19` `muheeth`
 
 **Name:** Mohamed Muheeth
 
