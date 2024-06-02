@@ -42,6 +42,7 @@
 
 Here's an overview of how the Intelligent Eye website works:
 
+`Click to open`
 <img src="https://github.com/Muheet-m1/Image-Caption-Generator/blob/main/frontend/Screenshot%202024-06-01%20184415.png" height="600">
 
 <img src="https://github.com/Muheet-m1/Image-Caption-Generator/blob/main/frontend/Screenshot%202024-06-01%20184433.png" height="600">
