@@ -44,7 +44,7 @@ Here's an overview of how the Intelligent Eye website works:
 
 ` First choose the file to generate caption`
 
-<img src="https://github.com/Muheet-m1/Image-Caption-Generator/blob/main/frontend/Screenshot%202024-06-01%20184415.png" height="600">
+<img src="https://github.com/Muheet-m1/Image-Caption-Generator/blob/main/images/Screenshot%202024-06-01%20184415.png" height="600">
 
 ` Select the picture and open it`
 
