@@ -5,15 +5,21 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background: #27a57d url("cat bg.avif") no-repeat center center/cover;
 }
 
 .container {
     text-align: center;
-    background: white;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2), -10px -10px 20px rgba(255, 255, 255, 0.5);
+    transform: perspective(1000px) rotateX(10deg) rotateY(10deg);
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
 }
 
 h1 {
@@ -39,10 +45,13 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+    transition: background-color 0.3s, box-shadow 0.3s;
 }
 
 button:hover {
     background-color: #0056b3;
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.4);
 }
 
 .image-section {
@@ -56,6 +65,7 @@ button:hover {
     border-radius: 5px;
     padding: 5px;
     background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .caption-section {
